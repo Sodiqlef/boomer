@@ -1,0 +1,201 @@
+body {
+    background-color: #ddf;
+    line-height: auto;
+    
+}
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+.dropdown {  
+  display: inline-block;
+  position: relative;
+   }
+.dropdown-content { 
+   display: none;  
+   position: relative;  
+   background-color: #ccf;  
+   min-width: 350px;   
+   padding: 12px; 
+   font-size: 30px;
+    }
+  .menu{
+    color: #ddf;
+    background-color: blue;
+    border: 10px solid blue;
+    border-radius: 20px;
+    font-size:50px;
+    font-weight: bold;
+    font-family:algerian;
+
+  }
+.dropdown:hover .dropdown-content {  
+  display: block; 
+  }
+div {
+    
+     padding-right: 100px;
+}
+a:link {
+    background-color:  blue;
+    text-decoration: none;
+    position: right;
+    font-weight: bold;
+    color: black;
+
+} 
+a:hover {
+background-color: #ddf;
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+    
+    padding: 10px;
+    border: 5px solid blue;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+a:visited {
+  background-color: #ddf;
+    color: black;
+     border: 1px solid blue;
+    text-decoration: none;
+}
+div.transbox {
+  margin: 30px;
+  background-color: white;
+  opacity: 0.7;
+  border: 10px double blue;
+  color: black;
+  filter: alpha(opacity=60);
+}
+.background{
+  background-color: white;
+  padding-left: 70px;
+  border: 5px double blue;
+}
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  opacity: 0.7;
+}
+marquee {
+    font-size: 20px;
+    font-family: algerian;
+    color: blue;
+}
+h1 {
+  text-align: center;
+  background-color: white;
+  color: blue;
+  border: 3px double blue;
+  font-family: Algerian;
+  font-size: 55px;
+}
+h3{
+  font-size: 200%;
+}
+input{
+border-left: 5px solid blue;
+background-color: #ddf;
+height: 30px;
+width:250px;
+font-size: 30px;
+color: blue;
+}
+fieldset {
+  background-color: white;
+  border: 10px double blue;
+}
+form{
+font-size: 20px;
+}
+input[type="submit"] {
+  background-color: blue;
+  height: 40px;
+  width: 150px;
+  color: #ddf;
+}
+input[type="checkbox"] {
+  width: auto;
+  height: auto;
+}
+select{
+  border-left: 5px solid blue;
+background-color: #ddf;
+height: 30px;
+width:250px;
+font-size: 100%;
+color: blue;
+}
+span{
+  color:red;
+  font-size: 100%;
+}
+ul{
+  background-color: blue;
+  font-size: 100%;
+}
+li{
+  background-color: #ddf;
+  font-size: 100%;
+}
+ol{
+  background-color: blue;
+  font-size: 100%;
+  margin-left: 20px;
+}
+p{
+  font-size: 200%;
+}
+.intro {
+font-family: algerian;
+font-weight: bold;
+font-size: 85%;
+background-color: white;
+border: 5px double blue;
+}
+.center{
+  text-align: center;
+  background-color: navy;
+  font-size: 120%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #ddf;
+}
+li a:visited{
+  background-color: blue;
+  color: #ddf;
+}
