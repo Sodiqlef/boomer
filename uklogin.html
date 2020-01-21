@@ -1,0 +1,54 @@
+<!doctype HTML>
+<html>
+  <head>
+    <script>
+    function PassWord() {
+      var y = document.forms["booming"] 
+      ["password"].value;
+         if (y !=24434 &&
+             y !=99542 &&
+             y !=56250 &&
+             y !=14433 ) {  
+          alert(" Incorrect Username or Password");
+          return false;
+        }
+    }
+    </script>
+    <link rel="stylesheet"
+    type="text/css"
+    href="form.css">
+    <title>Login page</title>
+  </head>
+
+  <body>
+    <img src="logo1.jpg" alt="logo" class="center" > <br> <br>
+<li class="inline">
+   <a href="ukHome.html">HOME</a>|
+    <a href="uklogin.html">LOGIN</a>|
+    <a href="ukRegistration.html">REGISTER</a>|
+    <a href="ukhere.html">purchase number</a> 
+    </li>
+    <h1> Login </h1>
+    <p> If you don't have an account, please Register!!!
+    
+    <form action="Home.html" method="post" name="booming" onsubmit="return PassWord()">
+    <fieldset>
+    Username <br> <input type="text" name="username" required > <br> <br>
+    Password <br> <input type="password" name="password" required id="check"> <br>
+      <input type="checkbox" onclick="checker()"> Show Password <br>
+      <script>
+        function checker() {
+          var x = document.getElementById("check");
+          if (x.type === "password") {
+            x.type = "text";
+          } else {
+            x.type = "password";
+          }
+          }
+      </script> <br>
+      <input type="submit" VAlue="Login">
+      </fieldset>
+      <p> Don't have an account? 
+      <a href="ukregistration.html"> Register Here </a> </p>
+
+
