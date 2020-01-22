@@ -2,14 +2,14 @@
 <html>
   <head>
     <script>
-    function PassWord() {
+    function couponCode() {
       var y = document.forms["booming"] 
-      ["password"].value;
-         if (y !=24434 &&
-             y !=99542 &&
-             y !=56250 &&
-             y !=14433 ) {  
-          alert(" Incorrect Username or Password");
+      ["matric"].value;
+        if (y != "f3b77ice2k" 
+         && y !="ai322bcikx"  
+         && y !="y32zx43dc4"  
+         && y !="cj09h12bgk" ) {
+          alert(" Coupon code doesn't exist");
           return false;
         }
     }
@@ -17,24 +17,27 @@
     <link rel="stylesheet"
     type="text/css"
     href="form.css">
-    <title>Login page</title>
+    <title>Registration page</title>
   </head>
 
   <body>
     <img src="logo1.jpg" alt="logo" class="center" > <br>
 <li class="inline">
-   <a href="ukHome.html">HOME</a>|
+   <a href="index.html">HOME</a>|
     <a href="uklogin.html">LOGIN</a>|
-    <a href="ukRegistration.html">REGISTER</a>|
+    <a href="ukregistration.html">REGISTER</a>|
     <a href="ukhere.html">purchase number</a> 
-    </li>
+  </li>
+    <br> <br> <br>
     <h1> Register </h1>
     <p> Don't have a coupon code?, please click 
-      <a href="https://wa.me/27680992932?textHello!,%20i%20want%20to%20be%20a%20member%20of%20UKBOOMER%20username%20is%20"> here </a> to get one.
+      <a href="https://wa.me/27680992932?text=Hello!,%20i%20want%20to%20be%20a%20member%20of%20UKBOOMER%20username%20is%20"> here </a> to get one.
     
-    <form action="Home.html" method="post" name="booming" onsubmit="return PassWord()">
+    <form action="index.html" method="post" name="booming" onsubmit="return couponCode()">
     <fieldset>
     Username <br> <input type="text" name="username" required > <br> <br>
+    Email <br> <input type="email" name="mail" required> <br> <br>
+    Coupon Code <br> <input type="text" name="coupon" required><br> <br>
     Password <br> <input type="password" name="password" required id="check"> <br>
       <input type="checkbox" onclick="checker()"> Show Password <br>
       <script>
@@ -47,9 +50,9 @@
           }
           }
       </script> <br>
-      <input type="submit" VAlue="Login">
+      <input type="submit" VAlue="Sign Up">
       </fieldset>
-      <p> Don't have an account? 
-      <a href="ukregistration.html"> Register Here </a> </p>
+      <p> Already have an account? 
+      <a href="uklogin.html"> Login Here </a> </p>
 
 
