@@ -1,0 +1,164 @@
+body {
+    background-color: #ddf;    
+}
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.dropdown {  
+  display: inline-block;
+  position: relative;
+   }
+.dropdown-content { 
+   display: none;  
+   position: relative;  
+   background-color: #ccf;  
+   min-width: 350px;   
+   padding: 12px; 
+   font-size: 30px;
+    }
+  .menu{
+    color: #ddf;
+    background-color: blue;
+    border: 10px solid blue;
+    border-radius: 20px;
+    font-size:50px;
+    font-weight: bold;
+    font-family:algerian;
+
+  }
+.dropdown:hover .dropdown-content {  
+  display: block; 
+  }
+div {
+    
+     padding-right: 100px;
+}
+a:link {
+    background-color:  blue;
+    text-decoration: none;  
+    font-weight: bold;
+    color: black;
+
+} 
+a:hover {
+background-color: #ddf;
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+    
+    padding: 10px;
+    border: 5px solid blue;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+a:visited {
+  background-color: #ddf;
+    color: black;
+     border: 1px solid blue;
+    text-decoration: none;
+}
+div.transbox {
+  margin: 30px;
+  background-color: white;
+  opacity: 0.7;
+  border: 10px double blue;
+  color: black;
+  filter: alpha(opacity=60);
+}
+.background{
+  background-color: white;
+  padding-left: 70px;
+  border: 5px double blue;
+}
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  opacity: 0.7;
+}
+marquee {
+    font-size: 20px;
+    font-family: algerian;
+    color: blue;
+}
+h1 {
+  text-align: center;
+  background-color: white;
+  color: blue;
+  border: 3px double blue;
+  font-family: Algerian;
+  font-size: 150%;
+}
+h3{
+  font-size: 120%;
+}
+span{
+  color:red;
+  font-size: 100%;
+}
+ul{
+  background-color: blue;
+  font-size: 100%;
+}
+li{
+  background-color: #ddf;
+  font-size: 150%;
+}
+ol{
+  background-color: blue;
+  font-size: 100%;
+  margin-left: 20px;
+}
+p{
+  font-size: 150%;
+}
+.intro {
+font-family: algerian;
+font-weight: bold;
+font-size: 85%;
+background-color: white;
+border: 5px double blue;
+}
+.center{
+  text-align: center;
+  background-color: darkblue;
+  font-size: 120%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #ddf;
+}
+li a:visited{
+  background-color: blue;
+  color: #ddf;
+}
+.image{
+    text-align: center;
+    height: 15%;
+    width: 10%;
+    border-style: none;
+    border-radius: 25%;
+}
+.before{
+  text-decoration: line-through;
+}

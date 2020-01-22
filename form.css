@@ -1,0 +1,62 @@
+body{
+    text-align: center;
+    background-color: whitesmoke;
+}
+input{
+    border: 2px solid blue;
+    border-radius: 8px;
+    font-size: 120%;
+}
+fieldset{
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 120%;
+}
+input[type="submit"]{
+    background-color: blue;
+    width: 160px;
+    color: white;
+}
+a:link {
+    background-color:  white;
+    text-decoration: none;
+    position: right;
+    font-weight: bold;
+    color: black;
+
+} 
+a:hover {
+background-color: #ddf;
+    color: blue;
+    text-decoration: none;
+    border: 2px solid blue;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+a:visited {
+  background-color: #ddf;
+    color: black;
+     border: 1px solid blue;
+    text-decoration: none;
+}
+p{
+    font-size: 120%;
+}
+.inline{
+    display: inline;
+    text-align: left;
+}
+.center{
+    text-align: center;
+    height: 25%;
+    width: 15%;
+    border-style: none;
+    border-radius: 25%;
+}
+li{
+    font-size: 150%;
+    border: 3px solid blue;
+    border-radius: 10px;
+}
