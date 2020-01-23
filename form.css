@@ -1,6 +1,8 @@
 body{
     text-align: center;
     background-color: whitesmoke;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 input{
     border: 2px solid blue;
@@ -45,18 +47,60 @@ p{
     font-size: 120%;
 }
 .inline{
-    display: inline;
+    display: inline-block;
     text-align: left;
 }
 .center{
     text-align: center;
     height: 25%;
-    width: 15%;
+    width: 25%;
     border-style: none;
     border-radius: 25%;
 }
 li{
-    font-size: 150%;
+    font-size: 250%;
     border: 3px solid blue;
     border-radius: 10px;
+}
+footer{
+    text-align: center;
+    background-color: darkblue;
+    font-size: 120%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0%
+}
+.before{
+    text-decoration: line-through;
+    color: red;
+}
+table{
+    border: 2px solid blue;
+    font-size: 120%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-collapse: collapse;
+    width: 100%
+}
+th{
+    background-color: blue;
+    border-style: solid;
+    color: white;
+    padding: 10px;
+    
+}
+td{
+    border:2px solid blue;
+    border-collapse: collapse;
+    padding: 10px;
+}
+tr:nth-child(even){
+    padding: 8px;
+    background-color: white;
+}
+.img{
+    width: 20px;
+    text-align: left;
+}
+div{
+    text-align: left;
+    font-size: 120%;
 }
