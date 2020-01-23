@@ -7,13 +7,13 @@ body{
 input{
     border: 2px solid blue;
     border-radius: 8px;
-    font-size: 120%;
+    font-size: 150%;
 }
 fieldset{
     border: 2px solid blue;
     border-radius: 5px;
     background-color: white;
-    font-size: 120%;
+    font-size: 150%;
 }
 input[type="submit"]{
     background-color: blue;
@@ -44,7 +44,7 @@ a:visited {
     text-decoration: none;
 }
 p{
-    font-size: 120%;
+    font-size: 150%;
 }
 .inline{
     display: inline-block;
@@ -64,10 +64,10 @@ li{
 }
 footer{
     text-align: center;
-    background-color: darkblue;
-    font-size: 120%;
+    background-color: blue;
+    font-size: 150%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 0%
+    color: white;
 }
 .before{
     text-decoration: line-through;
@@ -75,7 +75,7 @@ footer{
 }
 table{
     border: 2px solid blue;
-    font-size: 120%;
+    font-size: 150%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-collapse: collapse;
     width: 100%
@@ -97,10 +97,19 @@ tr:nth-child(even){
     background-color: white;
 }
 .img{
-    width: 20px;
+    width: 30px;
+    border-style: none;
+    border-radius: 200px;
     text-align: left;
 }
 div{
     text-align: left;
-    font-size: 120%;
+    font-size: 150%;
+}
+marquee{
+  background-color: white;
+  opacity: 0.7;
+  border: 10px double blue;
+  color: black;
+  filter: alpha(opacity=60);
 }
