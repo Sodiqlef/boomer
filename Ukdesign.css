@@ -31,6 +31,7 @@ marquee{
   border: 10px double blue;
   color: black;
   filter: alpha(opacity=60);
+  font-size: 150%;
 }
 h1 {
   text-align: center;
@@ -68,6 +69,7 @@ li a:visited{
 }
 .before{
   text-decoration: line-through;
+  color: red;
 }
 footer{
     text-align: center;
@@ -85,4 +87,27 @@ footer{
     width: 25%;
     border-style: none;
     border-radius: 25%;
+}
+table{
+    border: 2px solid blue;
+    font-size: 150%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-collapse: collapse;
+    width: 100%
+}
+th{
+    background-color: blue;
+    border-style: solid;
+    color: white;
+    padding: 10px;
+    
+}
+td{
+    border:2px solid blue;
+    border-collapse: collapse;
+    padding: 10px;
+}
+tr:nth-child(even){
+    padding: 8px;
+    background-color: white;
 }
