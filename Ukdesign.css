@@ -25,18 +25,12 @@ a:visited {
      border: 1px solid blue;
     text-decoration: none;
 }
-marquee {
-  margin: 30px;
+marquee{
   background-color: white;
   opacity: 0.7;
-  border: 3px solid blue;
+  border: 10px double blue;
   color: black;
   filter: alpha(opacity=60);
-}
-div.transbox p {
-  margin: 5%;
-  color: #000000;
-  opacity: 0.7;
 }
 h1 {
   text-align: center;
@@ -49,18 +43,16 @@ h1 {
 h3{
   font-size: 120%;
   background-color: blue;
-}
-span{
-  color:red;
-  font-size: 100%;
+  color: white;
 }
 ul{
   background-color: blue;
   font-size: 100%;
 }
 li{
-  background-color: #ddf;
+  background-color: white;
   font-size: 150%;
+  color: black;
 }
 ol{
   background-color: blue;
@@ -70,31 +62,27 @@ ol{
 p{
   font-size: 150%;
 }
-.intro {
-font-family: algerian;
-font-weight: bold;
-font-size: 85%;
-background-color: white;
-border: 5px double blue;
-}
-.center{
-  text-align: center;
-  background-color: darkblue;
-  font-size: 120%;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: #ddf;
-}
 li a:visited{
   background-color: blue;
   color: #ddf;
 }
-.image{
-    text-align: center;
-    height: 15%;
-    width: 10%;
-    border-style: none;
-    border-radius: 25%;
-}
 .before{
   text-decoration: line-through;
+}
+footer{
+    text-align: center;
+    background-color: blue;
+    font-size: 150%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+.center{
+  text-align: center;
+}
+.logo{
+    text-align: center;
+    height: 25%;
+    width: 25%;
+    border-style: none;
+    border-radius: 25%;
 }
